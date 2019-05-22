@@ -1,0 +1,150 @@
+
+ul{
+    list-style-type: none;
+}
+a:hover{
+    text-decoration: none;
+}
+#bg{
+    background-image: url("img/achtergrond.jpg");
+}
+#card{
+    padding:50px;
+    border-radius:5px;
+    background-color:#1091b7;
+    margin-left: 10%;
+    color:white;
+}
+#reg-card{
+    padding:25px;
+    border-radius:5px;
+    background-color:#1091b7;
+    margin-left: 10%;
+    color:white;
+}
+#log-card{
+    margin:10px;
+    padding:35px;
+    border-radius:5px;
+    background-color:#1091b7;
+    margin-left: 10%;
+    color:white;
+}
+#profile-card{
+    padding:30px;
+    border-radius:5px;
+    background-color:#1091b7;
+    margin-left: 3%;
+    color:white;
+}
+#hometxt{
+    margin-left: 15%;
+}
+#header{
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    height:50px;
+    width:100%;
+    background-color:#0c7c9e;
+    margin-bottom:5%;
+}
+#container{
+    position:relative;
+    bottom:0;
+    background-color:#0c7c9e;
+    padding:5% 0% 15% 15%;
+}
+.navCon{
+    margin-top:5%;
+    color:white;
+}
+#icon {
+    width:20px;
+    padding:0px;
+    margin: 0px 0px 5px 0px;
+}
+#aLink {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color:#fff;
+    display: block;
+    padding:0px;
+    margin-bottom: 8px;
+}
+#aLink:hover {
+    color: #d6d6d6;
+    transition:0.3s;
+}
+#aLink.current {
+    color:black;
+}
+.sidebar{
+    height:100%;
+    width:15%;
+    background-color:#0c7c9e;
+    position:fixed;
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+}
+#center{
+    background-color: #d6d6d6;
+    padding: 100px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+.spacing{
+    margin-bottom:2%;
+}
+#navspace{
+    position:fixed;
+    bottom :20%;
+    left:1%;
+}
+#navspace{
+    color:#d6d6d6;
+}
+#logoutBut{
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:15%;
+    height:5%;
+    color:#fff;
+    background-color:#0a6682;
+}
+#logoutBut:hover{
+    background-color:#074f66;
+}
+#btn-color{
+    background-color:#12a9d6;
+    border-color:#12a9d6;
+}
+#btn-color:hover{
+    background-color:#0c7c9e;
+    border-color:#0c7c9e;
+}
+.input-group-prepend span{
+width: 40px;
+background-color: #12a9d6;
+color: #000;
+}
+.errorText{
+    color:#e5114c;
+    background-color:#80bcce;
+    padding:2px;
+    border-radius: 5px;
+    margin:10px 2px 1px 2px;
+}
+.succesText{
+    color:#6af230;
+    margin:10px 2px 1px 2px;
+    padding:2px;
+    border-radius: 5px;
+    margin:10px 2px 1px 2px;
+}
+
+    
